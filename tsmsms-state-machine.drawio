@@ -1,250 +1,408 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="295" y="30" width="30" height="30" as="geometry" />
+          <mxGeometry x="323" y="188" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="382b91b5511bd0f7-1" target="382b91b5511bd0f7-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="565" y="90" as="targetPoint" />
+            <mxPoint x="308" y="268" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="375" y="45" />
+              <mxPoint x="338" y="258" />
+              <mxPoint x="338" y="258" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="382b91b5511bd0f7-8" target="K7TAK-xbUGXbJQmpDENe-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;curved=0;" parent="1" source="382b91b5511bd0f7-8" target="K7TAK-xbUGXbJQmpDENe-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="393" y="408" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-33" value="find file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-30">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-33" value="signal to send SMS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K7TAK-xbUGXbJQmpDENe-30" vertex="1" connectable="0">
           <mxGeometry x="0.275" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="382b91b5511bd0f7-8" target="K7TAK-xbUGXbJQmpDENe-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" parent="1" source="382b91b5511bd0f7-8" target="K7TAK-xbUGXbJQmpDENe-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-50" value="Stop signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-49">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-50" value="Stop signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K7TAK-xbUGXbJQmpDENe-49" vertex="1" connectable="0">
           <mxGeometry x="-0.5429" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="382b91b5511bd0f7-8" target="V7jQEan7J8aLQ7yXm2UW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-8" value="signal to read SMS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-7">
+          <mxGeometry x="0.3017" y="3" relative="1" as="geometry">
+            <mxPoint x="17" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="382b91b5511bd0f7-8" target="V7jQEan7J8aLQ7yXm2UW-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="313" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-14" value="signal to delete SMS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-13">
+          <mxGeometry x="0.1394" y="1" relative="1" as="geometry">
+            <mxPoint x="89" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="382b91b5511bd0f7-8" target="V7jQEan7J8aLQ7yXm2UW-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279" y="648" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-16" value="signal &quot;new SMS&quot; from Tsmodem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-15">
+          <mxGeometry x="0.5986" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-8" value="Wainting" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="238" y="268" width="365" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-29" target="382b91b5511bd0f7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-24" value="done" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-23">
+          <mxGeometry x="-0.5" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="382b91b5511bd0f7-8" value="Wainting&lt;div&gt;&amp;nbsp;for file with sms&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="345" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-29" target="K7TAK-xbUGXbJQmpDENe-93">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-29" target="V7jQEan7J8aLQ7yXm2UW-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="405" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-34" value="get sms text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-32">
-          <mxGeometry x="0.15" y="-2" relative="1" as="geometry">
-            <mxPoint x="2" y="-6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-29" target="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="240" y="260" />
-              <mxPoint x="240" y="260" />
+              <mxPoint x="783" y="388" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-43" value="Invalid file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-42">
-          <mxGeometry x="-0.44" y="2" relative="1" as="geometry">
-            <mxPoint x="-22" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-29" value="Parse file" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="345" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;curved=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-51" target="K7TAK-xbUGXbJQmpDENe-93">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="450" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="375" y="490" />
-              <mxPoint x="375" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-37" value="sending failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-36">
-          <mxGeometry x="0.05" y="1" relative="1" as="geometry">
-            <mxPoint x="-19" y="6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-51" target="382b91b5511bd0f7-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="465" y="480" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="535" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-39" value="Sending success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-38">
-          <mxGeometry x="-0.081" y="-2" relative="1" as="geometry">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-32" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-31">
+          <mxGeometry x="-0.3222" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-99" target="382b91b5511bd0f7-8">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-29" value="send SMS to modem" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="483" y="358" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" parent="1" source="V7jQEan7J8aLQ7yXm2UW-25" target="382b91b5511bd0f7-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="220" as="sourcePoint" />
+            <mxPoint x="-137" y="438" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="130" y="110" />
-              <mxPoint x="345" y="110" />
+              <mxPoint x="663" y="298" />
+              <mxPoint x="663" y="298" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-41" value="Error handled" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-40">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-41" value="Error handled" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K7TAK-xbUGXbJQmpDENe-40" vertex="1" connectable="0">
           <mxGeometry x="-0.0846" y="1" relative="1" as="geometry">
-            <mxPoint x="46" y="1" as="offset" />
+            <mxPoint x="-7" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-48" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="495" y="30" width="30" height="30" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-48" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="405.5" y="188" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-51" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Processing by&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tsmodem&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="510" width="730" height="250" as="geometry">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-51" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Send SMS to modem&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="890" width="840" height="300" as="geometry">
             <mxRectangle x="250" y="510" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-55" target="K7TAK-xbUGXbJQmpDENe-53">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-52" target="V7jQEan7J8aLQ7yXm2UW-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-52" target="K7TAK-xbUGXbJQmpDENe-55">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-52" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="K7TAK-xbUGXbJQmpDENe-51" vertex="1">
+          <mxGeometry x="20" y="195" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-55" target="K7TAK-xbUGXbJQmpDENe-57">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="20" as="targetPoint" />
+            <mxPoint x="470" y="210" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-52" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
-          <mxGeometry x="75" y="30" width="30" height="30" as="geometry" />
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-53" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-52">
+          <mxGeometry x="0.0545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-53" target="K7TAK-xbUGXbJQmpDENe-57">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-55" value="lock Tsmodem,&lt;div&gt;modem to PDU state&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-51" vertex="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-57" target="K7TAK-xbUGXbJQmpDENe-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-56" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-55">
+          <mxGeometry x="0.0833" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-57" target="K7TAK-xbUGXbJQmpDENe-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-53" target="K7TAK-xbUGXbJQmpDENe-60">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-58" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-57">
+          <mxGeometry x="-0.05" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-57" value="Divide text to chunks,&lt;div&gt;send chunks&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-51" vertex="1">
+          <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-60" target="V7jQEan7J8aLQ7yXm2UW-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="411" y="161.01999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-66" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-65">
+          <mxGeometry x="-0.4095" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-60" target="K7TAK-xbUGXbJQmpDENe-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-68" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-67">
+          <mxGeometry x="-0.7026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-60" value="unlock Tsmodem,&lt;div&gt;modem to TEXT state&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-51" vertex="1">
+          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-62" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="K7TAK-xbUGXbJQmpDENe-51" vertex="1">
+          <mxGeometry x="680" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="V7jQEan7J8aLQ7yXm2UW-38" target="K7TAK-xbUGXbJQmpDENe-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-45" value="Failed to get text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-44">
+          <mxGeometry x="-0.2116" y="4" relative="1" as="geometry">
+            <mxPoint x="20" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="V7jQEan7J8aLQ7yXm2UW-38" target="K7TAK-xbUGXbJQmpDENe-55">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="270" y="210" />
-              <mxPoint x="610" y="210" />
+              <mxPoint x="270" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-84" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-77">
-          <mxGeometry x="-0.6083" y="2" relative="1" as="geometry">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-49" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-48">
+          <mxGeometry x="0.1" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-53" value="Divide text to chunks" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
-          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-38" value="get and validate&amp;nbsp;&lt;div&gt;SMS text&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-55" target="K7TAK-xbUGXbJQmpDENe-62">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="V7jQEan7J8aLQ7yXm2UW-40" target="K7TAK-xbUGXbJQmpDENe-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="429.96000000000004" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="120" y="55" />
+              <mxPoint x="340" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-111" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-75">
-          <mxGeometry x="-0.6516" relative="1" as="geometry">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-60" value="try" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-59">
+          <mxGeometry x="-0.3143" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-55" value="modem to PDU state" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
-          <mxGeometry x="30" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-57" target="K7TAK-xbUGXbJQmpDENe-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-57" value="send chunks" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
-          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-60" target="K7TAK-xbUGXbJQmpDENe-62">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="V7jQEan7J8aLQ7yXm2UW-40" target="K7TAK-xbUGXbJQmpDENe-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="55" />
+              <mxPoint x="600" y="90" />
+              <mxPoint x="695" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-60" value="modem to TEXT state" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
-          <mxGeometry x="550" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-63" value="expired" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-62">
+          <mxGeometry x="0.0069" y="1" relative="1" as="geometry">
+            <mxPoint x="-23" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-62" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
-          <mxGeometry x="550" y="40" width="30" height="30" as="geometry" />
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-40" value="check try count" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-51">
+          <mxGeometry x="480" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-95" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;curved=0;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-93" target="K7TAK-xbUGXbJQmpDENe-51">
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-51" source="K7TAK-xbUGXbJQmpDENe-55" target="K7TAK-xbUGXbJQmpDENe-60">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435" y="450" as="targetPoint" />
+            <mxPoint x="470" y="100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="435" y="480" />
-              <mxPoint x="435" y="480" />
+              <mxPoint x="370" y="270" />
+              <mxPoint x="740" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-96" value="try" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-95">
-          <mxGeometry x="-0.04" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-51" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-50">
+          <mxGeometry x="-0.1045" y="-2" relative="1" as="geometry">
+            <mxPoint x="19" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-97" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="K7TAK-xbUGXbJQmpDENe-93" target="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="280" y="370" />
-              <mxPoint x="280" y="370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-98" value="expired" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7TAK-xbUGXbJQmpDENe-97">
-          <mxGeometry x="-0.2095" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-93" value="check try count" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="345" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-99" value="Error handling" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="140" width="160" height="500" as="geometry">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-99" value="Handling error of sending" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1250" width="840" height="160" as="geometry">
             <mxRectangle x="50" y="140" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-101" target="K7TAK-xbUGXbJQmpDENe-103">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-101" target="K7TAK-xbUGXbJQmpDENe-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-101" value="move sms file to &quot;failed&quot; directory" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-101" value="move sms file to &quot;failed&quot; directory" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-99" vertex="1">
+          <mxGeometry x="105" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-103" target="K7TAK-xbUGXbJQmpDENe-105">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-103" target="K7TAK-xbUGXbJQmpDENe-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-103" value="process sms file by Tsmemail" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-103" value="process sms file by Tsmemail" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-99" vertex="1">
+          <mxGeometry x="285" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-105" target="K7TAK-xbUGXbJQmpDENe-107">
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-105" target="K7TAK-xbUGXbJQmpDENe-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-105" value="send message to&amp;nbsp;&lt;div&gt;Web-UI&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry x="20" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-105" value="send message to&amp;nbsp;&lt;div&gt;Web-UI&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-99" vertex="1">
+          <mxGeometry x="465" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-107" target="K7TAK-xbUGXbJQmpDENe-109">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-107" value="send message to&amp;nbsp;&lt;div&gt;Event log&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" parent="K7TAK-xbUGXbJQmpDENe-99" vertex="1">
+          <mxGeometry x="635" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-107" value="send message to&amp;nbsp;&lt;div&gt;Event log&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="K7TAK-xbUGXbJQmpDENe-99" target="K7TAK-xbUGXbJQmpDENe-101" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="35" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-109" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry x="65" y="460" width="30" height="30" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-100" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="K7TAK-xbUGXbJQmpDENe-99" vertex="1">
+          <mxGeometry x="20" y="65" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-100" target="K7TAK-xbUGXbJQmpDENe-101">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-109" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="K7TAK-xbUGXbJQmpDENe-99" vertex="1">
+          <mxGeometry x="795" y="65" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K7TAK-xbUGXbJQmpDENe-100" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" vertex="1" parent="K7TAK-xbUGXbJQmpDENe-99">
-          <mxGeometry x="65" y="30" width="30" height="30" as="geometry" />
+        <mxCell id="K7TAK-xbUGXbJQmpDENe-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="K7TAK-xbUGXbJQmpDENe-99" source="K7TAK-xbUGXbJQmpDENe-107" target="K7TAK-xbUGXbJQmpDENe-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="V7jQEan7J8aLQ7yXm2UW-6" target="382b91b5511bd0f7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="363" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-22" value="done" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-21">
+          <mxGeometry x="-0.4909" y="-2" relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="V7jQEan7J8aLQ7yXm2UW-6" target="V7jQEan7J8aLQ7yXm2UW-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-33" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22error%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22941%22%20y%3D%22209%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3error&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-30">
+          <mxGeometry x="-0.5118" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-34" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-30">
+          <mxGeometry x="-0.5" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-6" value="read SMS from&amp;nbsp;&lt;div&gt;modem&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="483" y="438" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="V7jQEan7J8aLQ7yXm2UW-11" target="382b91b5511bd0f7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-20" value="done" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-18">
+          <mxGeometry x="-0.4897" relative="1" as="geometry">
+            <mxPoint x="57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="V7jQEan7J8aLQ7yXm2UW-11" target="V7jQEan7J8aLQ7yXm2UW-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="683" y="548" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="823" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-35" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-29">
+          <mxGeometry x="-0.6273" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-11" value="delete SMS from&lt;div&gt;modem&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="483" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="V7jQEan7J8aLQ7yXm2UW-12" target="V7jQEan7J8aLQ7yXm2UW-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="843" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-36" value="error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-27">
+          <mxGeometry x="-0.6697" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-12" value="send UBUS message" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="483" y="603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#FF0000;" edge="1" parent="1" source="V7jQEan7J8aLQ7yXm2UW-12" target="382b91b5511bd0f7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-19" value="done" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V7jQEan7J8aLQ7yXm2UW-17">
+          <mxGeometry x="-0.3705" relative="1" as="geometry">
+            <mxPoint x="115" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7jQEan7J8aLQ7yXm2UW-25" value="error&lt;div&gt;handling&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;rounded=1;arcSize=24;shadow=0;comic=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="743" y="268" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
